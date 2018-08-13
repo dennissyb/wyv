@@ -1,0 +1,27 @@
+page-welcome {
+  .gradient {
+    background-color: #00ff97 !important;
+  }
+  .wyv-footer {
+    margin-top: 15% !important;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .wyv-content {
+    background-image: url('../../assets/imgs/back.png');
+  }
+  .vertical {
+    display: flex !important;
+    align-content: center !important;
+    align-items: center !important;
+  }
+
+  .absolute-center {
+    width: 100%;
+    height: 100%;
+    //overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 50; right: 0;
+}
+}

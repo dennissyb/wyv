@@ -1,0 +1,97 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+
+    <ion-buttons>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="onNewEvent()">
+        <ion-icon name="ios-add-circle" md="md-add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title text-center>
+      <span>Events</span>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<!-- <ion-content padding> -->
+
+<ion-content padding class="card-background-page">
+
+  <ion-card *ngFor="let cat of categories; let i = index" (click)="onViewCategory(cat.name)">
+    <img src={{cat.image}}/>
+    <div class="card-title">{{cat.name}}</div>
+    <div class="card-subtitle">{{cat.number}} events</div>
+  </ion-card>
+
+</ion-content>
+
+
+<!-- <ion-card *ngFor="let event of events; let i = index" class="event-color">
+
+    <ion-item class="event-color">
+      <ion-avatar item-start>
+        <img src={{event.avatar}}>
+      </ion-avatar>
+      <h2 class="event-title">{{event.title}}</h2>
+      <p>{{event.date | date:medium}}</p>
+    </ion-item>
+
+    <img src={{event.poster}}>
+
+    <ion-card-content>
+      <p>{{event.description}}</p>
+      <hr>
+
+      <ion-list>
+        <ion-item class="list-border">
+          <ion-icon name="home" item-start></ion-icon>
+          Venue
+          <ion-note item-end color="dark">{{event.venue}} </ion-note>
+        </ion-item>
+        <ion-item class="list-border">
+          <ion-icon name="cash" item-start></ion-icon>
+          Entrance Fee
+          <ion-note item-end color="dark">{{event.entrance}}</ion-note>
+        </ion-item>
+        <ion-item class="list-border">
+          <ion-icon name="clock" item-start></ion-icon>
+          Date
+          <ion-note item-end color="dark">{{event.date | date:fullDate}}</ion-note>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button block ion-button outline color="dark" (click)="onShareEvent(event)">Share</button>
+      </ion-col>
+      <ion-col>
+        <button block ion-button outline color="dark" (click)="onViewEvent(event)">View</button>
+      </ion-col>
+    </ion-row>
+
+    <hr>
+    <ion-row item-center text-center>
+      <ion-col>
+        <h3 class="event-vibe">Event Vibrator :</h3> 
+      </ion-col>
+      <ion-col>
+        <ion-icon name="star" large style="color:yellow" *ngFor="let rate of event.rating">
+        </ion-icon>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-card> 
+
+
+
+</ion-content>-->

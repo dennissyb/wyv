@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "Club Parties",
+        "image" : "./assets/imgs/categories/club.jpg",
+        "number" : 38
+    },
+    {
+        "name" : "Music Festival",
+        "image" : "./assets/imgs/categories/festival.jpg",
+        "number" : 11
+    },
+    {
+        "name" : "Fashion",
+        "image" : "./assets/imgs/categories/fashion.jpg",
+        "number" : 6
+    },
+    {
+        "name" : "Sport",
+        "image" : "./assets/imgs/categories/sport.jpg",
+        "number" : 23
+    },
+    {
+        "name" : "WYV Parties",
+        "image" : "./assets/imgs/categories/wyv.jpg",
+        "number" : 42
+    },
+    {
+        "name" : "Dining",
+        "image" : "./assets/imgs/categories/food.jpg",
+        "number" : 109
+    },
+    {
+        "name" : "Picnic",
+        "image" : "./assets/imgs/categories/picnic.jpg",
+        "number" : 3
+    }
+]

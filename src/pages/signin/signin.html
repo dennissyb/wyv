@@ -1,0 +1,77 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title><span>Sign In</span></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #for="ngForm" (ngSubmit)="onSignIn(for)" >
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Email</ion-label>
+        <ion-input type="email" name="email" ngModel [minlength]="6" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" name="password" ngModel [minlength]="6" required ></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <button ion-button block large round type="submit">Login</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <button ion-button clear block>
+            <a>Forgot Password?</a>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+
+  <hr>
+
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col>
+        <h5>log in using </h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button outline block round ion-only color="google">
+          <ion-icon name="logo-google"></ion-icon>
+
+          </button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button outline block round ion-only color="facebook">
+          <ion-icon name="logo-facebook"> </ion-icon>
+          </button>
+      </ion-col>
+      <ion-col>
+          <button ion-button outline block round ion-only color="twitter">
+            <ion-icon name="logo-twitter"> </ion-icon>
+  
+            </button>
+        </ion-col>
+        
+
+    </ion-row>
+  </ion-grid>
+
+
+
+
+</ion-content>

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "location",
+        "image" : "./assets/imgs/mylocation.png"
+    },
+    {
+        "name": "share",
+        "image" : "./assets/imgs/Seperates-09.png"
+        
+    },
+    {
+        "name" : "splash",
+        "image" : ""
+    },
+    {
+        "name" : "home",
+        "image" : "./assets/imgs/long.png"
+    }
+]

@@ -1,0 +1,88 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Create Event</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <form #f="ngForm" (ngSubmit)="CreateEvent(f)">
+    <ion-list>
+      <ion-item>
+        <ion-label floating color="primary">
+          Event Name
+        </ion-label>
+        <ion-input type="text" name="title" ngModel></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label color="primary">Date</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" name="date" ngModel></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+
+        <label color="primary">
+          <div class="input-label" color="primary">
+            Event Type
+          </div>
+        </label>
+        <select class="item-select">
+            <option selected>Public</option>
+            <option>Private</option>
+          </select>
+      </ion-item>
+
+      <ion-item>
+
+        <label color="primary">
+          <div class="input-label" color="primary">
+            Event Age Group
+          </div>
+        </label>
+        <select class="item item-input item-select">
+            <option selected>All</option>
+            <option>5 - 12 years</option>
+            <option>13 - 17 years</option>
+            <option>18 above </option>
+          </select>
+      </ion-item>
+
+
+
+      <ion-item>
+        <ion-label floating color="primary">
+          Event Venue
+        </ion-label>
+        <ion-input type="type" name="venue" ngModel></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating color="primary">
+          Event Entrance Fee
+        </ion-label>
+        <ion-input type="number" name="entrance" ngModel></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating color="primary">
+          Event Description
+        </ion-label>
+        <ion-input type="textarea" name="description" ngModel></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="file" name="poster" ngModel></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <button type="submit" ion-button block outline large round>
+      Create Event
+    </button>
+
+  </form>
+
+
+</ion-content>

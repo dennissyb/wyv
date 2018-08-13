@@ -1,0 +1,77 @@
+<ion-menu [content]="nav">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card style="background-color:#00ff97; opacity:0.75">
+      <ion-card-content>
+        <img src="../../assets/imgs/long.png">
+      </ion-card-content>
+    </ion-card>
+
+    <ion-item-group>
+      <ion-item-divider color="light" icon-left>
+        <ion-icon name="contact" style="color:lightgreen"></ion-icon> Account</ion-item-divider>
+      <ion-item>
+        <ion-note>Edit Profile</ion-note>
+      </ion-item>
+      <ion-item>
+        <ion-note>Delete Profile</ion-note>
+      </ion-item>
+    </ion-item-group>
+
+    <ion-item-group>
+      <ion-item-divider color="light" icon-left>
+        <ion-icon name="notifications" style="color:lightgreen"></ion-icon> Notifications</ion-item-divider>
+      <ion-item>
+        <ion-note>Message Notifications</ion-note>
+      </ion-item>
+      <ion-item>
+        <ion-note>Event Notifications</ion-note>
+      </ion-item>
+    </ion-item-group>
+
+    <ion-item-group>
+      <ion-item-divider color="light" icon-left>
+        <ion-icon ios="ios-cog" md="md-cog" style="color:lightgreen"></ion-icon> Settings</ion-item-divider>
+      <ion-item>
+        <ion-note>Privacy</ion-note>
+      </ion-item>
+      <ion-item>
+        <ion-note>Theme</ion-note>
+      </ion-item>
+    </ion-item-group>
+
+    <ion-item-group>
+      <ion-item-divider color="light" icon-left>
+        <ion-icon name="help-circle" style="color:lightgreen"></ion-icon>
+        Help</ion-item-divider>
+      <ion-item>
+        <ion-note>FAQ</ion-note>
+      </ion-item>
+      <ion-item>
+        <ion-note>Contact Us</ion-note>
+      </ion-item>
+      <ion-item>
+        <ion-note>App Info</ion-note>
+      </ion-item>
+    </ion-item-group>
+    <hr>
+    <ion-list>
+      <ion-item>
+        <button ion-button icon-left item-left clear>
+          <ion-icon name="log-out" style="color:red"></ion-icon>Log Out
+        </button>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-menu>
+
+
+<ion-nav [root]="rootPage" #nav></ion-nav>

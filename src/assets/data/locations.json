@@ -1,0 +1,163 @@
+[
+        {
+            "title": "Rosebank Mall",
+            "latitude": -26.672444,
+            "longitude": 27.041474,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Rosebank Gautrain",
+            "latitude": -26.175748,
+            "longitude": 27.884888,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "NYPD",
+            "latitude": -26.056262,
+            "longitude": 27.968976,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "The Woolworth Building",
+            "latitude": -26.146788,
+            "longitude": 27.903776,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Foley Square",
+            "latitude": -26.321385,
+            "longitude": 27.673176,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Sazon",
+            "latitude": -26.00985,
+            "longitude": 28.030111,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Southbridge Towers",
+            "latitude": -26.369275,
+            "longitude": 27.901082921,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Wall St",
+            "latitude" : -26.872985,
+            "longitude": 27.738312,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Tribeca Grill",
+            "latitude": -26.148085,
+            "longitude": 28.039556,
+            "image" : "./assets/imgs/event.png"
+        }, {
+            "title": "Rosebank Mall",
+            "latitude": -26.544444,
+            "longitude": 27.781474,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Rosebank Gautrain",
+            "latitude": -26.33748,
+            "longitude": 28.14888,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "NYPD",
+            "latitude": -26.548385,
+            "longitude": 28.038976,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "The Woolworth Building",
+            "latitude": -26.886788,
+            "longitude": 27.303776,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Foley Square",
+            "latitude": -26.385234,
+            "longitude": 28.342176,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Sazon",
+            "latitude": -26.999985,
+            "longitude": 28.440111,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Southbridge Towers",
+            "latitude": -26.911985,
+            "longitude": 27.44082921,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Wall St",
+            "latitude" : -26.448985,
+            "longitude": 27.138312,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Tribeca Grill",
+            "latitude": -26.568085,
+            "longitude": 27.662556,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Rosebank Mall",
+            "latitude": -26.226444,
+            "longitude": 27.8763474,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Rosebank Gautrain",
+            "latitude": -26.666748,
+            "longitude": 27.674888,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "NYPD",
+            "latitude": -26.342385,
+            "longitude": 27.876976,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "The Woolworth Building",
+            "latitude": -26.676788,
+            "longitude": 27.323776,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Foley Square",
+            "latitude": -26.818385,
+            "longitude": 27.450176,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Sazon",
+            "latitude": -26.798985,
+            "longitude": 28.130111,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Southbridge Towers",
+            "latitude": -26.48985,
+            "longitude": 27.56082921,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Wall St",
+            "latitude" : -26.148985,
+            "longitude": 27.038312,
+            "image" : "./assets/imgs/event.png"
+        },
+        {
+            "title": "Tribeca Grill",
+            "latitude": -26.048785,
+            "longitude": 27.779556,
+            "image" : "./assets/imgs/event.png"
+        }
+    ]

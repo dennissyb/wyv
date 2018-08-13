@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let row of grid" text-center>
+      <ion-col width-33 *ngFor="let file of row" (click)="onViewEvent(file)">
+        <img [src]="file.poster" class="thumbnail">
+        <ion-note>{{file.title}}</ion-note>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

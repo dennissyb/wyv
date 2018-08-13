@@ -1,0 +1,75 @@
+[
+
+    {
+        "title": "Ultra",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "Newlands",
+        "description" : "The British use the term header, but the American term head-shot the English simply refuse to adopt.",
+        "avatar" : "./assets/imgs/avatar-2.jpg",
+        "poster" : "./assets/imgs/ultra.jpg",
+        "rating" : [1,2,3,4,5]
+        
+             
+    },
+    {
+        "title": "Party On A Plot",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "The Dome",
+        "description" : "The British use the term header, but the American term head-shot the English simply refuse to adopt.",
+        "avatar" : "./assets/imgs/avatar-3.jpg",
+        "poster" : "./assets/imgs/poap.jpg",
+        "rating" : [1,2,3]
+    },
+    {
+        "title": "Home Coming Picnic",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "State Theatre",
+        "description" : "The British use the term header, but the American term head-shot the English simply refuse to adopt.",
+        "avatar" : "./assets/imgs/avatar-3.jpg",
+        "poster" : "./assets/imgs/hc.jpeg",
+        "rating" : [1,2,3,4]
+        
+    },
+    {
+        "title": "Major League Garden",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "FNB Stadium",
+        "description" : "Celebrating of birthday has become a part and parcel of our life. My parents celebrate my birthday every year of 20th may. This year I had a special program for its celebration. I invited about fifty friends and relatives. They brought me beautiful and costly presents. The drawing room of our house was tastefully decorated. Chairs and tables were laid for the guests. A big birthday candle. I cut the cake with a knife. All present programs. Some of my friends sang sweet song. Some showed dance. My relatives garlanded me. I felt very proud on that day. I looked like a prince.  In the end we had a light refreshment. My parents blessed me and my relatives and friends wished me long life. This was one of the happiest days of my life.",
+        "avatar" : "./assets/imgs/avatar-3.jpg",
+        "poster" : "./assets/imgs/mj.jpg",
+        "rating" : [1,2]
+        
+    },
+    {
+        "title": "Neon Party",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "FNB Stadium",
+        "description" : "Celebrating of birthday has become a part and parcel of our life. My parents celebrate my birthday every year of 20th may. This year I had a special program for its celebration. I invited about fifty friends and relatives. They brought me beautiful and costly presents. The drawing room of our house was tastefully decorated. Chairs and tables were laid for the guests. A big birthday candle. I cut the cake with a knife. All present programs. Some of my friends sang sweet song. Some showed dance. My relatives garlanded me. I felt very proud on that day. I looked like a prince.  In the end we had a light refreshment. My parents blessed me and my relatives and friends wished me long life. This was one of the happiest days of my life.",
+        "avatar" : "./assets/imgs/avatar-3.jpg",
+        "poster" : "./assets/imgs/neon.jpg",
+        "rating" : [1,2]
+        
+    },
+    {
+        "title": "Pool Party",
+        "date": "10/2/2018",
+        "artists": ["Black Coffee", "Dj Maphorisa","Team Mosha","Drake", "Jay Z", "Kanye West", "Dj Kent","Cassper Nyovest","Nasty C"],
+        "entrance" : "R100",
+        "venue" : "FNB Stadium",
+        "description" : "Celebrating of birthday has become a part and parcel of our life. My parents celebrate my birthday every year of 20th may. This year I had a special program for its celebration. I invited about fifty friends and relatives. They brought me beautiful and costly presents. The drawing room of our house was tastefully decorated. Chairs and tables were laid for the guests. A big birthday candle. I cut the cake with a knife. All present programs. Some of my friends sang sweet song. Some showed dance. My relatives garlanded me. I felt very proud on that day. I looked like a prince.  In the end we had a light refreshment. My parents blessed me and my relatives and friends wished me long life. This was one of the happiest days of my life.",
+        "avatar" : "./assets/imgs/avatar-3.jpg",
+        "poster" : "./assets/imgs/pool.jpg",
+        "rating" : [1,2]
+        
+    }
+]
